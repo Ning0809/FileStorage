@@ -1,0 +1,84 @@
+{
+    "iphone":{
+        "iphone13pro":[
+            {"id":"ph01","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"松嶺青色","capacity":"128","cptype":"GB","price":"32900"},
+            {"id":"ph02","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"銀色","capacity":"128","cptype":"GB","price":"32900"},
+            {"id":"ph03","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"金色","capacity":"128","cptype":"GB","price":"32900"},
+            {"id":"ph04","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"石墨色","capacity":"128","cptype":"GB","price":"32900"},
+            {"id":"ph05","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"天峰藍色","capacity":"128","cptype":"GB","price":"32900"},
+            {"id":"ph06","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"松嶺青色","capacity":"256","cptype":"GB","price":"36400"},
+            {"id":"ph07","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"銀色","capacity":"256","cptype":"GB","price":"36400"},
+            {"id":"ph08","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"金色","capacity":"256","cptype":"GB","price":"36400"},
+            {"id":"ph09","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"石墨色","capacity":"256","cptype":"GB","price":"36400"},
+            {"id":"ph10","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"天峰藍色","capacity":"256","cptype":"GB","price":"36400"},
+            {"id":"ph11","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"松嶺青色","capacity":"512","cptype":"GB","price":"43400"},
+            {"id":"ph12","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"銀色","capacity":"512","cptype":"GB","price":"43400"},
+            {"id":"ph13","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"金色","capacity":"512","cptype":"GB","price":"43400"},
+            {"id":"ph14","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"石墨色","capacity":"512","cptype":"GB","price":"43400"},
+            {"id":"ph15","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"天峰藍色","capacity":"512","cptype":"GB","price":"43400"},
+            {"id":"ph16","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"松嶺青色","capacity":"1","cptype":"TB","price":"50400"},
+            {"id":"ph17","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"銀色","capacity":"1","cptype":"TB","price":"50400"},
+            {"id":"ph18","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"金色","capacity":"1","cptype":"TB","price":"50400"},
+            {"id":"ph19","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"石墨色","capacity":"1","cptype":"TB","price":"50400"},
+            {"id":"ph20","name":"iPhone 13 Pro","size":"6.1吋顯示器","color":"天峰藍色","capacity":"1","cptype":"TB","price":"50400"}
+        ],
+        "iphone13promax":[
+            {"id":"phmax01","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"松嶺青色","capacity":"128","cptype":"GB","price":"36900"},
+            {"id":"phmax02","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"銀色","capacity":"128","cptype":"GB","price":"36900"},
+            {"id":"phmax03","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"金色","capacity":"128","cptype":"GB","price":"36900"},
+            {"id":"phmax04","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"石墨色","capacity":"128","cptype":"GB","price":"36900"},
+            {"id":"phmax05","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"天峰藍色","capacity":"128","cptype":"GB","price":"36900"},
+            {"id":"phmax06","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"松嶺青色","capacity":"256","cptype":"GB","price":"40400"},
+            {"id":"phmax07","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"銀色","capacity":"256","cptype":"GB","price":"40400"},
+            {"id":"phmax08","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"金色","capacity":"256","cptype":"GB","price":"40400"},
+            {"id":"phmax09","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"石墨色","capacity":"256","cptype":"GB","price":"40400"},
+            {"id":"phmax10","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"天峰藍色","capacity":"256","cptype":"GB","price":"40400"},
+            {"id":"phmax11","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"松嶺青色","capacity":"512","cptype":"GB","price":"47400"},
+            {"id":"phmax12","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"銀色","capacity":"512","cptype":"GB","price":"47400"},
+            {"id":"phmax13","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"金色","capacity":"512","cptype":"GB","price":"47400"},
+            {"id":"phmax14","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"石墨色","capacity":"512","cptype":"GB","price":"47400"},
+            {"id":"phmax15","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"天峰藍色","capacity":"512","cptype":"GB","price":"47400"},
+            {"id":"phmax16","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"松嶺青色","capacity":"1","cptype":"TB","price":"54400"},
+            {"id":"phmax17","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"銀色","capacity":"1","cptype":"TB","price":"54400"},
+            {"id":"phmax18","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"金色","capacity":"1","cptype":"TB","price":"54400"},
+            {"id":"phmax19","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"石墨色","capacity":"1","cptype":"TB","price":"54400"},
+            {"id":"phmax20","name":"iPhone 13 Pro Max","size":"6.7吋顯示器","color":"天峰藍色","capacity":"1","cptype":"TB","price":"54400"}
+        ]
+    },
+    "ipad":{
+        "ipadair":[
+            {"id":"pa01","name":"iPad Air","color":"太空灰色","capacity":"64GB","internet":"Wi-Fi","price":"17900"},
+            {"id":"pa01","name":"iPad Air","color":"粉紅色","capacity":"64GB","internet":"Wi-Fi","price":"17900"},
+            {"id":"pa01","name":"iPad Air","color":"紫色","capacity":"64GB","internet":"Wi-Fi","price":"17900"},
+            {"id":"pa01","name":"iPad Air","color":"藍色","capacity":"64GB","internet":"Wi-Fi","price":"17900"},
+            {"id":"pa01","name":"iPad Air","color":"星光色","capacity":"64GB","internet":"Wi-Fi","price":"17900"},
+            {"id":"pa01","name":"iPad Air","color":"太空灰色","capacity":"64GB","internet":"Wi-Fi+行動網路","price":"22900"},
+            {"id":"pa01","name":"iPad Air","color":"粉紅色","capacity":"64GB","internet":"Wi-Fi+行動網路","price":"22900"},
+            {"id":"pa01","name":"iPad Air","color":"紫色","capacity":"64GB","internet":"Wi-Fi+行動網路","price":"22900"},
+            {"id":"pa01","name":"iPad Air","color":"藍色","capacity":"64GB","internet":"Wi-Fi+行動網路","price":"22900"},
+            {"id":"pa01","name":"iPad Air","color":"星光色","capacity":"64GB","internet":"Wi-Fi+行動網路","price":"22900"},
+            {"id":"pa01","name":"iPad Air","color":"太空灰色","capacity":"256GB","internet":"Wi-Fi","price":"22900"},
+            {"id":"pa01","name":"iPad Air","color":"粉紅色","capacity":"256GB","internet":"Wi-Fi","price":"22900"},
+            {"id":"pa01","name":"iPad Air","color":"紫色","capacity":"256GB","internet":"Wi-Fi","price":"22900"},
+            {"id":"pa01","name":"iPad Air","color":"藍色","capacity":"256GB","internet":"Wi-Fi","price":"22900"},
+            {"id":"pa01","name":"iPad Air","color":"星光色","capacity":"256GB","internet":"Wi-Fi","price":"22900"},
+            {"id":"pa01","name":"iPad Air","color":"太空灰色","capacity":"256GB","internet":"Wi-Fi+行動網路","price":"27900"},
+            {"id":"pa01","name":"iPad Air","color":"粉紅色","capacity":"256GB","internet":"Wi-Fi+行動網路","price":"27900"},
+            {"id":"pa01","name":"iPad Air","color":"紫色","capacity":"256GB","internet":"Wi-Fi+行動網路","price":"27900"},
+            {"id":"pa01","name":"iPad Air","color":"藍色","capacity":"256GB","internet":"Wi-Fi+行動網路","price":"27900"},
+            {"id":"pa01","name":"iPad Air","color":"星光色","capacity":"256GB","internet":"Wi-Fi+行動網路","price":"27900"}
+        ]
+    },
+    "mac":{
+        "macbook air":[
+            {"id":"mac01","name":"MacBook Air","color":"午夜色","capacity":"256GB","price":"37900"},
+            {"id":"mac01","name":"MacBook Air","color":"星光色","capacity":"256GB","price":"37900"},
+            {"id":"mac01","name":"MacBook Air","color":"太空灰色","capacity":"256GB","price":"37900"},
+            {"id":"mac01","name":"MacBook Air","color":"銀色","capacity":"256GB","price":"37900"},
+            {"id":"mac01","name":"MacBook Air","color":"午夜色","capacity":"512GB","price":"46900"},
+            {"id":"mac01","name":"MacBook Air","color":"星光色","capacity":"512GB","price":"46900"},
+            {"id":"mac01","name":"MacBook Air","color":"太空灰色","capacity":"512GB","price":"46900"},
+            {"id":"mac01","name":"MacBook Air","color":"銀色","capacity":"512GB","price":"46900"}
+        ]
+    }
+}
