@@ -1,0 +1,43 @@
+{
+    "iphone":{
+        "iphone13pro":[
+            {"name":"iPhone 13 Pro","color":"松嶺青色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-green-select?wid=470&hei=556&fmt=png-alpha&.v=1644969385505"},
+            {"name":"iPhone 13 Pro","color":"銀色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-silver-select?wid=470&hei=556&fmt=png-alpha&.v=1645552345849"},
+            {"name":"iPhone 13 Pro","color":"金色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-gold-select?wid=470&hei=556&fmt=png-alpha&.v=1645552345862"},
+            {"name":"iPhone 13 Pro","color":"石墨色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-graphite-select?wid=470&hei=556&fmt=png-alpha&.v=1645552346276"},
+            {"name":"iPhone 13 Pro","color":"天峰藍色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-blue-select?wid=470&hei=556&fmt=png-alpha&.v=1645552346275"}
+        ],
+        "iphone13promax":[
+            {"name":"iPhone 13 Pro Max","color":"松嶺青色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-max-green-select?wid=470&hei=556&fmt=png-alpha&.v=1644969385495"},
+            {"name":"iPhone 13 Pro Max","color":"銀色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-max-silver-select?wid=470&hei=556&fmt=png-alpha&.v=1645552346280"},
+            {"name":"iPhone 13 Pro Max","color":"金色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-max-gold-select?wid=470&hei=556&fmt=png-alpha&.v=1645552346295"},
+            {"name":"iPhone 13 Pro Max","color":"石墨色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-max-graphite-select?wid=470&hei=556&fmt=png-alpha&.v=1645552346288"},
+            {"name":"iPhone 13 Pro Max","color":"天峰藍色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-max-blue-select?wid=470&hei=556&fmt=png-alpha&.v=1645552346295"}
+        ],
+        "iphonepreview":[
+            {"color":"松嶺青色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-finish-green-202203?wid=204&amp;hei=204&amp;fmt=jpeg&amp;qlt=90&amp;.v=1645149891269"},
+            {"color":"銀色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-finish-silver-2021?wid=204&amp;hei=204&amp;fmt=jpeg&amp;qlt=90&amp;.v=1629940690000"},
+            {"color":"金色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-finish-gold-2021?wid=204&amp;hei=204&amp;fmt=jpeg&amp;qlt=90&amp;.v=1629940690000"},
+            {"color":"石墨色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-finish-graphite-2021?wid=204&amp;hei=204&amp;fmt=jpeg&amp;qlt=90&amp;.v=1629940690000"},
+            {"color":"天峰藍色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-finish-blue-2021?wid=204&amp;hei=204&amp;fmt=jpeg&amp;qlt=90&amp;.v=1629940690000"}
+        ]       
+    }, 
+    
+    "ipad":{
+        "ipadair":[
+            {"color":"太空灰色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-select-wifi-spacegray-202203?wid=470&hei=556&fmt=png-alpha&.v=1645066742664"},
+            {"color":"粉紅色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-select-wifi-pink-202203?wid=470&hei=556&fmt=png-alpha&.v=1645066399526"},
+            {"color":"紫色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-select-wifi-purple-202203?wid=470&hei=556&fmt=png-alpha&.v=1645066730601"},
+            {"color":"藍色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-select-wifi-blue-202203?wid=470&hei=556&fmt=png-alpha&.v=1645065732688"},
+            {"color":"星光色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-select-wifi-starlight-202203?wid=470&hei=556&fmt=png-alpha&.v=1645895139236"}
+        ]
+    },      
+    "mac":{
+        "macbook air":[
+            {"color":"午夜色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-midnight-select-20220606?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653084303665"},
+            {"color":"星光色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-starlight-select-20220606?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653084303732"},
+            {"color":"太空灰色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-spacegray-select-20220606?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653084303733"},
+            {"color":"銀色","url":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-silver-select-20220606?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653084303678"}
+        ]       
+    }       
+}
