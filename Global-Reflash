@@ -1,0 +1,24 @@
+//Global
+//每秒刷新頁面，自動打開售票窗口
+
+let time = 1000
+
+let standby = setInterval(() => {
+    let count = 0
+    current = location.href
+    fr4me = '<frameset cols=\'*\'>\n<frame id src=\'' + current + '\'/>';
+    fr4me += '</frameset>';
+    if (document.querySelector('#hlkPurchase') == null) {
+        count++;
+        console.log(`每${time / 1000}秒自動刷新，刷新次數：${count}`);
+        with (document) {
+            write(fr4me);
+            void (close());
+        }
+    }
+    else {
+        clearInterval(standby)
+        document.querySelector('#hlkPurchase').click()
+    }
+}, 1 * time)
+
