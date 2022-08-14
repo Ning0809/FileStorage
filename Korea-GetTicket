@@ -1,0 +1,59 @@
+//自動跳頁及換區，直到信用卡結帳頁面改手動操作
+//選擇哪一天? 如為第一天0、第二天1...
+let date = 0; 
+
+window.alert = function () { }
+//選日期
+if (document.querySelector('[name=ifrmSeatFrame]') == null) {
+    if (document.querySelector('#ulSeatSpace li') == null) {
+        document.querySelectorAll('.select a ')[date].click()
+    }
+    else { document.querySelector('#StepCtrlBtn01 a').click() }
+}
+
+//選座位: 如Array沒展開就先選區域，再選位子
+else {
+    if (document.querySelector('[name=ifrmSeatFrame]').contentDocument.querySelector('#divSeatArray').children.length == 0) {
+        let num = 0
+        getarea(num)
+        let getticket = setInterval(() => {
+            if (document.querySelector('[name=ifrmSeatFrame]').contentDocument.querySelector('[grade]') == null) {
+                num++
+                getarea(num)
+            } else {
+                document.querySelector('[name=ifrmSeatFrame]').contentDocument.querySelector('[grade]').click()
+                document.querySelector('[name=ifrmSeatFrame]').contentDocument.querySelector('.booking').parentElement.click()
+                clearInterval(getticket)
+            }
+
+        }, 1000)
+
+        function getarea(area) {
+            if (document.querySelector('[name=ifrmSeatFrame]').contentDocument.querySelectorAll('area')[area] != null) {
+                document.querySelector('[name=ifrmSeatFrame]').contentDocument.querySelectorAll('area')[area].click()
+            }
+            else { num = 0 }
+        }
+    }
+}
+//確認張數
+if (document.querySelector('#step03').style.display == 'block') {
+    document.querySelectorAll('#StepCtrlBtn03 a')[1].click()
+}
+//填資料(要等待資料長出來)
+if (document.querySelector('#step04').style.display == 'block') {
+    if (document.querySelector('#deliveryUserName').value != '') { document.querySelectorAll('#StepCtrlBtn04 a')[1].click() }
+}
+//付款方式(無摺優先>信用卡)
+if (document.querySelector('#step05').style.display == 'block') {
+    if (document.getElementsByName('rdoPays')[2] != null) {
+        document.getElementsByName('rdoPays')[2].click()
+        document.querySelector('#selBank').value = '49'
+    }
+    else {
+        document.getElementsByName('rdoPays')[1].click()
+    }
+    document.querySelector('#cbxCancelFeeAgree').checked = true
+    document.querySelector('#chkinfoAgree').checked = true
+    document.querySelectorAll('#StepCtrlBtn05 a')[1].click()
+}
