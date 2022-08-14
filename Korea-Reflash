@@ -1,0 +1,24 @@
+//每秒刷新頁面，自動打開售票窗口
+
+let time = 1000
+
+//外部standby階段(每1秒跑一次)
+let standby = setInterval(() => {
+    let count = 0
+    current = location.href
+    fr4me = '<frameset cols=\'*\'>\n<frame id src=\'' + current + '\'/>';
+    fr4me += '</frameset>';
+    if (document.querySelector('[data-year]') == null) {
+        count++;
+        console.log(`每${time / 1000}秒自動刷新，刷新次數：${count}`);
+        with (document) {
+            write(fr4me);
+            void (close());
+        }
+    }
+    else {
+        clearInterval(standby)
+        document.querySelectorAll('[data-year]')[0].click()
+        document.querySelector('.rn-bb03').click()
+    }
+}, 1 * time)
